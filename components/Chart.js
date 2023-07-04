@@ -19,10 +19,6 @@ export default function Chart({ data }) {
           type: "pie",
         },
       });
-
-      //   return () => {
-      //     chart.destroy();
-      //   };
     }
   }, [data]);
 
